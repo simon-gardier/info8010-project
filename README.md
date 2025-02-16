@@ -25,9 +25,9 @@ Tool to generate a texture pack for minecraft from a prompt.
 - Will need a (hopefully) small script to then take these images and make a texture pack out of them (i.e. a rar file that can be imported in the `/ressourcepacks` forlder of Minecraft)
 
 # Research
-## Ressource packs website to scrap
-https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=texture-packs
-https://www.planetminecraft.com/texture-packs/themed/?filter0=33&op0=1&monetization=0
+## Ressource pack websites to scrap
+Website 1: https://www.curseforge.com/minecraft/search?page=1&pageSize=20&sortBy=relevancy&class=texture-packs
+Website 2: https://www.planetminecraft.com/texture-packs/themed/?filter0=33&op0=1&monetization=0
 
 ## Text to Image
 https://www.youtube.com/watch?v=w8YQcEd77_o
