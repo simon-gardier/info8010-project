@@ -13,9 +13,14 @@ YOLOV5 explained:
 - https://blog.roboflow.com/yolov5/
 - https://iq.opengenus.org/yolov5/
 - https://towardsai.net/p/l/yolov5m-implementation-from-scratch-with-pytorch
+- https://sh-tsang.medium.com/brief-review-yolov5-for-object-detection-84cc6c6a0e3a
+- https://github.com/ultralytics/yolov5/discussions/3181
 
 ## Dataset
 - https://universe.roboflow.com/yolo-minecraft/minecraft-ogpjp/dataset/10
+
+## Training supervision
+- https://wandb.ai/s-gardier-work?product=models
 
 ## Dev environment
 
