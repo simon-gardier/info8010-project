@@ -10,7 +10,6 @@
 Official Implementation : https://github.com/ultralytics/yolov5/tree/master/models
 
 YOLOV5 explained: 
-- https://blog.roboflow.com/yolov5/
 - https://iq.opengenus.org/yolov5/
 - https://towardsai.net/p/l/yolov5m-implementation-from-scratch-with-pytorch
 - https://sh-tsang.medium.com/brief-review-yolov5-for-object-detection-84cc6c6a0e3a
@@ -29,7 +28,7 @@ YOLOV5 explained:
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh # Accept everything, say 'yes'...
 conda init # Run it in a new terminal
-conda create -n info8010 python=latest
+conda create -n info8010
 conda activate info8010
 conda info --envs #check your conda envs
 which python3 # check that the python version is the one from conda (something like /home/username/miniconda3/envs/info8010/bin/python3) 
