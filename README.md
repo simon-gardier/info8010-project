@@ -16,7 +16,7 @@ YOLOV5 explained:
 - https://github.com/ultralytics/yolov5/discussions/3181
 
 ## Dataset
-- https://universe.roboflow.com/yolo-minecraft/minecraft-ogpjp/dataset/10
+- YOLOv7: https://universe.roboflow.com/yolo-minecraft/minecraft-ogpjp/dataset/10
 
 ## Training supervision
 - https://wandb.ai/s-gardier-work?product=models
