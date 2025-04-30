@@ -22,7 +22,6 @@ YOLOV5 explained:
 - https://wandb.ai/s-gardier-work?product=models
 
 ## Dev environment
-
 ### Conda installation
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
@@ -34,8 +33,15 @@ conda info --envs #check your conda envs
 which python3 # check that the python version is the one from conda (something like /home/username/miniconda3/envs/info8010/bin/python3) 
 conda install ipykernel
 ```
-
 When running the notebook, make sure to select the kernel info8010).
+
+### Wandb
+Ref doc: https://docs.wandb.ai/quickstart/ (We use "W&B Models")
+
+- First, activate from the terminal your conda env (the same you use in the notebook, i.e. info8010) and install wandb: `pip install wandb`
+- Then, login with your wandb token: `wandb login <you_token>`
+- You can find your token in your wandb account settings: https://wandb.ai/authorize
+- Should be good :) Test with the wandb-test notebook, it should run fine and you should see a new run (takes a few seconds to appear) in the wandb workspace: https://wandb.ai/s-gardier-work/wandb-test/.
 
 ## Ideas (Archived)
 
