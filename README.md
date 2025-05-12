@@ -4,7 +4,7 @@
 - Course page: https://github.com/glouppe/info8010-deep-learning
 - Project page: https://github.com/glouppe/info8010-deep-learning/blob/master/project.md
 - Project proposal: https://www.overleaf.com/7518417627ycrxkdktsnjc#f5cae5
-- Project report: TBD
+- Project report: https://www.overleaf.com/3124452873pyhrsqkzqtpd#3ed97c
 
 ## Model links
 Official Implementation : https://github.com/ultralytics/yolov5/tree/master/models
