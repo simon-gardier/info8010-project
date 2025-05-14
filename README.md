@@ -32,6 +32,7 @@ conda activate info8010
 conda info --envs #check your conda envs
 which python3 # check that the python version is the one from conda (something like /home/username/miniconda3/envs/info8010/bin/python3) 
 conda install ipykernel
+sudo apt install graphviz
 ```
 When running the notebook, make sure to select the kernel info8010).
 
