@@ -3,3 +3,4 @@ train/
 valid/
 .env
 wandb/
+datasets/
