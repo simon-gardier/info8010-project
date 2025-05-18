@@ -5,3 +5,4 @@ valid/
 wandb/
 datasets/
 *.onnx
+models/
