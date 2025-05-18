@@ -4,3 +4,4 @@ valid/
 .env
 wandb/
 datasets/
+*.onnx
