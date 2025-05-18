@@ -1,8 +1,8 @@
-test/
-train/
-valid/
+*.jpg
+*.txt
 .env
 wandb/
 datasets/
 *.onnx
-models/
+*.pth
+!.gitkeep
