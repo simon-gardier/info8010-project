@@ -6,3 +6,6 @@ datasets/
 *.onnx
 *.pth
 !.gitkeep
+minecraft-10/
+minecraft-ore-1/
+*.pt
