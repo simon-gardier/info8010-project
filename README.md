@@ -6,29 +6,13 @@ ________                  ___________.__            .___
 \_______  /__|    \___  >  \___  /   |__|___|  /\____ |\___  >__|   
         \/            \/       \/            \/      \/    \/      
 ```
+# INFO8010 Project : OreFinder
 Implementation of YOLOv5 to detect ores in Minecraft, for the INFO8010 course.
 
-## Project links
-- Course page: https://github.com/glouppe/info8010-deep-learning
-- Project page: https://github.com/glouppe/info8010-deep-learning/blob/master/project.md
-- Project proposal: https://www.overleaf.com/7518417627ycrxkdktsnjc#f5cae5
-- Project report: https://www.overleaf.com/3124452873pyhrsqkzqtpd#3ed97c
-
-## Official model links
-Official Implementation : https://github.com/ultralytics/yolov5/tree/master/models
-
-YOLOV5 explained:
-- https://iq.opengenus.org/yolov5/
-- https://towardsai.net/p/l/yolov5m-implementation-from-scratch-with-pytorch
-- https://sh-tsang.medium.com/brief-review-yolov5-for-object-detection-84cc6c6a0e3a
-- https://github.com/ultralytics/yolov5/discussions/3181
-- https://docs.ultralytics.com/fr/yolov5/tutorials/architecture_description/
-
-## Dataset
-- YOLOv5: https://universe.roboflow.com/yolo-minecraft/minecraft-ogpjp/dataset/10
-
-## Wandb project
-- https://wandb.ai/s-gardier-work?product=models
+## Project files
+- model.py : YOLOv5 model implementation.
+- study_reference_model.py: Notebook used to study the YOLOv5 official model.
+- train_reference_model: Notebook used to train the YOLOv5 official model on our dataset and study the feasability of the project.
 
 ## Dev environment
 ### Conda installation
@@ -43,12 +27,26 @@ which python3 # check that the python version is the one from conda (something l
 conda install ipykernel
 sudo apt install graphviz
 ```
-When running the notebook, make sure to select the kernel info8010).
+When running the notebook, make sure to select the kernel info8010.
 
-### Wandb
-Ref doc: https://docs.wandb.ai/quickstart/ (We use "W&B Models")
+### Model download
+- Dlownload the model .pth file from: https://drive.google.com/file/d/1DAsTbonuAwgIGh83tqrq6XZwUol1-57Y/view?usp=drive_link
+- Place it at the root of the project folder.
 
-- First, activate from the terminal your conda env (the same you use in the notebook, i.e. info8010) and install wandb: `pip install wandb`
-- Then, login with your wandb token: `wandb login <you_token>`
-- You can find your token in your wandb account settings: https://wandb.ai/authorize
-- Should be good :) Test with the wandb-test notebook, it should run fine and you should see a new run (takes a few seconds to appear) in the wandb workspace: https://wandb.ai/s-gardier-work/wandb-test/.
+## Model links
+Official Implementation : https://github.com/ultralytics/yolov5/tree/master/models
+
+YOLOV5 explained: 
+- https://iq.opengenus.org/yolov5/
+- https://towardsai.net/p/l/yolov5m-implementation-from-scratch-with-pytorch
+- https://sh-tsang.medium.com/brief-review-yolov5-for-object-detection-84cc6c6a0e3a
+- https://github.com/ultralytics/yolov5/discussions/3181
+
+## Dataset
+- YOLOv5: https://universe.roboflow.com/yolo-minecraft/minecraft-ogpjp/dataset/10
+
+## Training supervision
+- https://wandb.ai/s-gardier-work?product=models
+
+## Project links
+- Course page: https://github.com/glouppe/info8010-deep-learning
